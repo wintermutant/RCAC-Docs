@@ -25,8 +25,8 @@ jobs:
         id: app-token
         uses: tibdex/github-app-token@v2
         with:
-          app_id: ${{ secrets.RCAC_DOCS_BOT_APP_ID }}
-          private_key: ${{ secrets.RCAC_DOCS_BOT_PRIVATE_KEY }}
+          app_id: ${{ secrets.PURDUERCAC_DOCS_BOT_APP_ID }}
+          private_key: ${{ secrets.PURDUERCAC_DOCS_BOT_PRIVATE_KEY }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -41,8 +41,8 @@ jobs:
 
       - name: Configure git identity
         run: |
-          git config user.name "rcac-docs-bot"
-          git config user.email "rcac-docs-bot@users.noreply.github.com"
+          git config user.name "purduercac-docs-bot"
+          git config user.email "purduercac-docs-bot@users.noreply.github.com"
 
       - name: Generate breadcrumbs
         run: python tools/generate_breadcrumbs.py
