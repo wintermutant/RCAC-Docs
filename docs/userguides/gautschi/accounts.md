@@ -47,3 +47,11 @@ Mac OS X:
 ## SSH Keys
 {% set resource = "gautschi" %}
 {{ ssh_keys_snippet(resource) }} 
+
+## SSH X11 Forwarding
+{% set resource = "gautschi" %}
+{{ ssh_x11_snippet(resource) }}
+
+## ThinLinc
+{% set resource = "gautschi" %}
+{{ thinlinc_snippet(resource) }}
