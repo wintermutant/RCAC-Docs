@@ -20,7 +20,11 @@ $ module avail datasets/ai
 
 ## AI Datasets
 * [**COCO**](ai/COCO.md)
+* [**LVIS**](ai/LVIS.md)
 * [**PhysicalAI-Robotics-GR00T-Teleop-Sim**](ai/PhysicalAI-Robotics-GR00T-Teleop-Sim.md)
 * [**PhysicalAI-Robotics-GR00T-X-Embodiment-Sim**](ai/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim.md)
 * [**PhysicalAI-Robotics-Manipulation-SingleArm**](ai/PhysicalAI-Robotics-Manipulation-SingleArm.md)
 * [**PhysicalAI-SmartSpaces**](ai/PhysicalAI-SmartSpaces.md)
+* [**VisualGenome**](ai/visualgenome.md)
+
+
