@@ -32,4 +32,10 @@ Prices and stuff
 
 ## Extended Examples
 
-Showcase some regular and weird job submissions
+### Python Jobs
+
+[Python Page](run_jobs/index)
+
+### R Jobs
+
+[R Page](run_jobs/index)
