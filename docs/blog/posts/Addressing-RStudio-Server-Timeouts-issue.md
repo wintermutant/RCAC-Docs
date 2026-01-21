@@ -20,7 +20,7 @@ tags:
 authors:
   - jin456
 links:
-  - userguides/anvil/jobs/running_jobs_r.md
+  - userguides/anvil/run_jobs/running_jobs_r.md
   - Nested section:
     - RStudio GitHub Repo: https://github.com/rstudio/rstudio
 ---
