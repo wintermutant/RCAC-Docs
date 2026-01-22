@@ -85,20 +85,18 @@ nav:
         - Overview: userguides/anvil/overview.md
         - System Architecture: userguides/anvil/architecture.md
         - Technical Specifications: userguides/anvil/technical-specs.md
-      - User Guide:
-        - Access to Anvil: userguides/anvil/access.md
-        - Getting Started: userguides/anvil/getting-started.md
-        - Job Submission: userguides/anvil/jobs.md
-        - File Management: userguides/anvil/storage.md
-        - Using Software: userguides/anvil/using-software.md
-        - Troubleshooting / FAQs: userguides/anvil/troubleshooting.md
-        - Help Desk: userguides/anvil/help.md
+      - Access to Anvil: userguides/anvil/access.md
+      - Getting Started: userguides/anvil/getting-started.md
+      - Job Submission: userguides/anvil/jobs.md
+      - File Management: userguides/anvil/storage.md
+      - Using Software: userguides/anvil/using-software.md
+      - Troubleshooting / FAQs: userguides/anvil/faq.md
+      - Help Desk: userguides/anvil/help.md
       - Software: userguides/anvil/software.md
       - Environments: userguides/anvil/environments.md
       - Datasets: userguides/anvil/datasets.md
       - Anvil Composable Subsystem: userguides/anvil/composable.md
       - AnvilGPT (LLM): userguides/anvil/anvilgpt.md
-      - Tutorials: userguides/anvil/tutorials/index.md
       - Maintenance Log: userguides/anvil/maintenance.md
       - Key Policies: userguides/anvil/policies.md
     - Gautschi User Guide:

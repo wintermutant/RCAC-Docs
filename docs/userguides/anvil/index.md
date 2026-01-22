@@ -13,7 +13,7 @@
 - [**Job Submission**](run_jobs/index.md)
 - [**File Management**](storage.md)
 - [**Using Software**](using-software.md)
-- [**Troubleshooting and FAQs**](troubleshooting.md)
+- [**Troubleshooting and FAQs**](faq.md)
 - [**Help Desk**](help.md)
 <!-- - [**Policies and Support**](policies.md) -->
 
