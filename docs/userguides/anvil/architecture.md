@@ -41,9 +41,9 @@ All nodes, as well as the scratch storage system are interconnected by an oversu
 
 ## Storage
 
-The Anvil local storage infrastructure provides users with their Home, Scratch, and Project areas. These file systems are mounted across all Anvil nodes and are accessible on the Anvil Globus Endpoints. In addition, Anvil Ceph offers a distributed, software-defined storage system that supports large-scale, durable, and high-throughput data access for research workflows.
+The Anvil local storage infrastructure provides users with their Home, Scratch, and Project areas. These file systems are mounted across all Anvil nodes and are accessible on the Anvil Globus Endpoints. In addition, **Anvil Ceph** offers a distributed, software-defined storage system that supports large-scale, durable, and high-throughput data access for research workflows.
 
-The three tiers of storage are intended for different use cases and are optimized for that use. Use of data tiers for their unintended purposes is discouraged as poor performance or file system access problems may occur. These tiers have quotas in both capacity and numbers of files, so care should be taken to not exceed those. Use the 'myquota' command to see what your usage is on the various tiers.
+The three tiers of storage are intended for different use cases and are optimized for that use. Use of data tiers for their unintended purposes is discouraged as poor performance or file system access problems may occur. These tiers have quotas in both capacity and numbers of files, so care should be taken to not exceed those. Use the `myquota` command to see what your usage is on the various tiers.
 
 Anvil File Systems
 
@@ -51,7 +51,7 @@ Anvil File Systems
 | --- | --- | --- | --- |
 | Filesystem | ZFS | GPFS | GPFS |
 | Capacity | 25 GB | 100 TB | 5 TB |
-| File number limit | none | 1 millions | 1 millions |
+| File number limit | none | 1 million | 1 million |
 | Backups | daily snapshots | none | daily snapshots |
 | Hardware | <ul><li>Dell PowerEdge R7515 Server</li><li>12 x 7.1TB NVME SSDs</li></ul> | <ul><li><p><strong>Flash Tier</strong></p><ul><li>11 Dell PowerEdge R7515 Servers</li><li>20 15.3 NVME SSDS</li></ul><p>&nbsp;</p></li><li><p><strong>SAS Tier</strong></p><ul><li>4 Dell PowerEdge R6516 Servers connected by InfiniBand to 2 DDN SFA 18K, each unit contains 5 SS9012 expansion enclosures</li><li>367 18TB NL SAS Drives</li></ul></li></ul> | |
 
@@ -61,14 +61,20 @@ Home is intended to hold configuration files for setting up the user's environme
 
 ### Scratch
 
-Scratch is intended to hold input and output data for running jobs. This tier of storage is very high performance and is very large to be able to handle a large number of jobs and large quantities of data. It is not intended for long-term storage of data, either input or output as files may only reside on Scratch for 30 days. Files older than 30 days will be eligible for an automated process which purges those files. This automated process can not be cancelled or overridden. So make provisions for moving your data to your home institution or other storage before then. New files on Scratch are written to a fast tier of NVME disk where they will reside for 7 days or if that tier is more than 90% full, at which time they are moved to a slower SAS tier for the remaining 30 days or until deleted.
+Scratch is intended to hold input and output data for running jobs. This tier of storage is very high performance and the large default size (100TB) makes it ideal to handle a large number of jobs and large quantities of data. It is not intended for long-term storage of data, as scratch storage only lasts for 30 days.
+
+!!! warning "**Scratch storage gets deleted after 30 days!**"
+    Files that have not been augmented or touched in 30 days automatically get deleted from the scratch storage.
+
+
+Files older than 30 days go through an automated process which purges them. This automated process can not be cancelled or overridden. So make provisions for moving your data to your home institution or other storage before then. New files on Scratch are written to a fast tier of NVME disk where they will reside for 7 days or if that tier is more than 90% full, at which time they are moved to a slower SAS tier for the remaining 30 days or until deleted.
 
 !!! warning 
     CAUTION: Be aware that data on this tier is not backed up or snapshotted, so files that are accidentally erased or lost due to mechanical problems is NOT recoverable. Movement of data to a more secure tier is recommended.
 
 ### Project
 
-Projects is intended for groups to store data that is relevant for entire groups such a common datasets used for computation or for collaboration. Allocations for this tier is by request and it is not designed to be used in actively writing job output to, but are usual for those files that are constantly in use for reading.
+The Project Space (`$PROJECT`) is intended for groups to store data that is relevant for entire groups - such as common datasets used for computation or for collaboration. Allocations for this tier are by request and it is not designed to be used in actively writing job output. The intended purpose is for files that are more frequently in use for reading.
 
 ### Anvil Ceph
 
