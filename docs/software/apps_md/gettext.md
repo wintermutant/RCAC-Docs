@@ -1,6 +1,6 @@
 # gettext
 
-[Back to application catalog](../app_catalog.md)
+[Back to application catalog](/software/app_catalog/)
 
 ## Description
 

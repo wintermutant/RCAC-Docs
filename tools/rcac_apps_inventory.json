@@ -2,9 +2,10 @@
   "abaqus": {
     "availability": {
       "bell": [
-        "2024"
+        "2024",
+        "2025"
       ],
-      "scholar": [
+      "gautschi": [
         "2024"
       ],
       "gilbreth": [
@@ -16,7 +17,7 @@
         "2023",
         "2024"
       ],
-      "gautschi": [
+      "scholar": [
         "2024"
       ]
     },
@@ -38,7 +39,7 @@
       "bell": [
         "24"
       ],
-      "scholar": [
+      "gautschi": [
         "24"
       ],
       "gilbreth": [
@@ -48,7 +49,7 @@
         "20",
         "24"
       ],
-      "gautschi": [
+      "scholar": [
         "24"
       ],
       "anvil": [
@@ -62,13 +63,13 @@
       "bell": [
         "25"
       ],
-      "scholar": [
+      "gautschi": [
         "25"
       ],
       "gilbreth": [
         "25"
       ],
-      "gautschi": [
+      "scholar": [
         "25"
       ],
       "anvil": [
@@ -113,11 +114,11 @@
   },
   "amduprof": {
     "availability": {
-      "negishi": [
-        "3.4-502"
-      ],
       "gautschi": [
         "5.1.701"
+      ],
+      "negishi": [
+        "3.4-502"
       ],
       "anvil": [
         "5.0"
@@ -130,8 +131,7 @@
         "2024.10-py312",
         "2025.06-py313"
       ],
-      "scholar": [
-        "2024.02-py311",
+      "gautschi": [
         "2024.10-py312",
         "2025.06-py313"
       ],
@@ -146,7 +146,8 @@
         "2024.10-py312",
         "2025.06-py313"
       ],
-      "gautschi": [
+      "scholar": [
+        "2024.02-py311",
         "2024.10-py312",
         "2025.06-py313"
       ],
@@ -157,8 +158,8 @@
       ]
     },
     "default": {
-      "scholar": "2024.02-py311",
       "negishi": "2024.02-py311",
+      "scholar": "2024.02-py311",
       "anvil": "2024.02-py311"
     }
   },
@@ -169,8 +170,9 @@
         "2024R2",
         "2025R2"
       ],
-      "scholar": [
-        "2022R1"
+      "gautschi": [
+        "2024R2",
+        "2025R2"
       ],
       "gilbreth": [
         "2024R2",
@@ -183,29 +185,28 @@
         "2024R2",
         "2025R2"
       ],
-      "gautschi": [
-        "2024R2",
-        "2025R2"
+      "scholar": [
+        "2022R1"
       ]
     },
     "default": {
       "bell": "2024R2",
-      "scholar": "2022R1",
+      "gautschi": "2024R2",
       "negishi": "2022R2",
-      "gautschi": "2024R2"
+      "scholar": "2022R1"
     }
   },
   "ansysedt": {
     "availability": {
+      "gautschi": [
+        "2023R2",
+        "2024R1"
+      ],
       "gilbreth": [
         "2023R2",
         "2024R1"
       ],
       "negishi": [
-        "2023R2",
-        "2024R1"
-      ],
-      "gautschi": [
         "2023R2",
         "2024R1"
       ]
@@ -240,8 +241,8 @@
       "bell": [
         "2.9.7"
       ],
-      "scholar": [
-        "2.4.15"
+      "gautschi": [
+        "2.9.7"
       ],
       "gilbreth": [
         "2.24.5"
@@ -249,8 +250,8 @@
       "negishi": [
         "2.9.7"
       ],
-      "gautschi": [
-        "2.9.7"
+      "scholar": [
+        "2.4.15"
       ],
       "anvil": [
         "2.4.15"
@@ -318,9 +319,8 @@
       "bell": [
         "1.85.0"
       ],
-      "scholar": [
-        "1.85.0",
-        "1.86.0"
+      "gautschi": [
+        "1.85.0"
       ],
       "gilbreth": [
         "1.79.0",
@@ -330,8 +330,9 @@
         "1.79.0",
         "1.80.0"
       ],
-      "gautschi": [
-        "1.85.0"
+      "scholar": [
+        "1.85.0",
+        "1.86.0"
       ],
       "anvil": [
         "1.74.0",
@@ -382,7 +383,7 @@
       "bell": [
         "2.4.4"
       ],
-      "scholar": [
+      "gautschi": [
         "2.3.0"
       ],
       "gilbreth": [
@@ -391,7 +392,7 @@
       "negishi": [
         "1.9.9"
       ],
-      "gautschi": [
+      "scholar": [
         "2.3.0"
       ],
       "anvil": [
@@ -401,11 +402,11 @@
   },
   "cgal": {
     "availability": {
-      "scholar": [
-        "4.13"
-      ],
       "negishi": [
         "4.14.3"
+      ],
+      "scholar": [
+        "4.13"
       ]
     }
   },
@@ -442,20 +443,23 @@
       "bell": [
         "6.0",
         "6.2",
-        "6.3"
+        "6.3",
+        "6.4"
       ],
-      "scholar": [
-        "6.2"
+      "gautschi": [
+        "6.2",
+        "6.3",
+        "6.4"
       ],
       "negishi": [
         "6.0",
         "6.1",
         "6.2",
-        "6.3"
+        "6.3",
+        "6.4"
       ],
-      "gautschi": [
-        "6.2",
-        "6.3"
+      "scholar": [
+        "6.2"
       ]
     }
   },
@@ -465,9 +469,9 @@
         "2025.02",
         "2025.09"
       ],
-      "scholar": [
-        "2024.09-py312",
+      "gautschi": [
         "2024.09",
+        "2025.02",
         "2025.09"
       ],
       "gilbreth": [
@@ -479,9 +483,9 @@
         "2024.09",
         "2025.09"
       ],
-      "gautschi": [
+      "scholar": [
+        "2024.09-py312",
         "2024.09",
-        "2025.02",
         "2025.09"
       ],
       "anvil": [
@@ -492,10 +496,10 @@
     },
     "default": {
       "bell": "2025.09",
-      "scholar": "2025.09",
+      "gautschi": "2025.09",
       "gilbreth": "2025.09",
       "negishi": "2025.09",
-      "gautschi": "2025.09",
+      "scholar": "2025.09",
       "anvil": "2025.02"
     }
   },
@@ -522,24 +526,27 @@
   },
   "cuda": {
     "availability": {
-      "scholar": [
-        "12.1.0"
-      ],
-      "gilbreth": [
-        "12.1.1",
-        "12.6.0"
-      ],
       "gautschi": [
         "12.6.0",
         "12.6.1",
         "12.8.0",
         "12.9.0"
       ],
+      "gilbreth": [
+        "12.1.1",
+        "12.6.0",
+        "13.1.0"
+      ],
+      "scholar": [
+        "12.1.0"
+      ],
       "anvil": [
         "11.0.3",
         "11.2.2",
         "11.4.2",
-        "12.0.1"
+        "12.0.1",
+        "12.8.0",
+        "13.1.0"
       ]
     },
     "default": {
@@ -548,18 +555,20 @@
   },
   "cudnn": {
     "availability": {
-      "gilbreth": [
-        "9.2.0.82-12"
-      ],
       "gautschi": [
         "9.2.0.82-12",
         "9.12.0.46-12"
+      ],
+      "gilbreth": [
+        "9.2.0.82-12"
       ],
       "anvil": [
         "cuda-11.0_8.0",
         "cuda-11.2_8.1",
         "cuda-11.4_8.2",
-        "cuda-12.0_8.8"
+        "cuda-12.0_8.8",
+        "cuda-12.8_9.17",
+        "cuda-13.1_9.17"
       ]
     },
     "default": {
@@ -614,8 +623,8 @@
         "1.1.3",
         "1.4.0"
       ],
-      "scholar": [
-        "1.0.0",
+      "gautschi": [
+        "1.1.3",
         "1.4.0"
       ],
       "gilbreth": [
@@ -626,8 +635,8 @@
         "1.0.0",
         "1.4.0"
       ],
-      "gautschi": [
-        "1.1.3",
+      "scholar": [
+        "1.0.0",
         "1.4.0"
       ],
       "anvil": [
@@ -637,19 +646,19 @@
     },
     "default": {
       "bell": "1.1.3",
-      "scholar": "1.4.0",
+      "gautschi": "1.4.0",
       "gilbreth": "1.4.0",
       "negishi": "1.4.0",
-      "gautschi": "1.4.0",
+      "scholar": "1.4.0",
       "anvil": "1.4.0"
     }
   },
   "edacfg": {
     "availability": {
-      "negishi": [
+      "gautschi": [
         "default"
       ],
-      "gautschi": [
+      "negishi": [
         "default"
       ]
     }
@@ -723,7 +732,7 @@
       "bell": [
         "3.3.10"
       ],
-      "scholar": [
+      "gautschi": [
         "3.3.10"
       ],
       "gilbreth": [
@@ -732,7 +741,7 @@
       "negishi": [
         "3.3.10"
       ],
-      "gautschi": [
+      "scholar": [
         "3.3.10"
       ],
       "anvil": [
@@ -802,10 +811,10 @@
       "bell": [
         "B.01"
       ],
-      "scholar": [
+      "negishi": [
         "B.01"
       ],
-      "negishi": [
+      "scholar": [
         "B.01"
       ]
     },
@@ -819,21 +828,21 @@
       "bell": [
         "6.0.16"
       ],
-      "scholar": [
-        "5.0.8",
-        "6.0.16"
-      ],
       "gilbreth": [
         "6.0.16"
       ],
       "negishi": [
         "6.0.16"
+      ],
+      "scholar": [
+        "5.0.8",
+        "6.0.16"
       ]
     },
     "default": {
       "bell": "6.0.16",
-      "scholar": "6.0.16",
-      "negishi": "6.0.16"
+      "negishi": "6.0.16",
+      "scholar": "6.0.16"
     }
   },
   "gcc": {
@@ -844,7 +853,7 @@
         "11.1.0",
         "14.2.0"
       ],
-      "scholar": [
+      "gautschi": [
         "11.4.1",
         "14.1.0"
       ],
@@ -857,7 +866,7 @@
         "11.2.0",
         "12.2.0"
       ],
-      "gautschi": [
+      "scholar": [
         "11.4.1",
         "14.1.0"
       ],
@@ -869,9 +878,9 @@
       ]
     },
     "default": {
-      "scholar": "14.1.0",
-      "negishi": "12.2.0",
       "gautschi": "14.1.0",
+      "negishi": "12.2.0",
+      "scholar": "14.1.0",
       "anvil": "11.2.0"
     }
   },
@@ -887,12 +896,12 @@
       "bell": [
         "3.10.0"
       ],
+      "gautschi": [
+        "3.9.2"
+      ],
       "negishi": [
         "2.4.4",
         "3.5.3"
-      ],
-      "gautschi": [
-        "3.9.2"
       ],
       "anvil": [
         "2.4.4",
@@ -954,10 +963,10 @@
   },
   "gfms": {
     "availability": {
-      "gilbreth": [
+      "gautschi": [
         "default"
       ],
-      "gautschi": [
+      "gilbreth": [
         "default"
       ],
       "anvil": [
@@ -965,14 +974,14 @@
       ]
     },
     "default": {
-      "gilbreth": "default",
       "gautschi": "default",
+      "gilbreth": "default",
       "anvil": "default"
     }
   },
   "ghostscript": {
     "availability": {
-      "scholar": [
+      "gautschi": [
         "9.56.1"
       ],
       "gilbreth": [
@@ -981,7 +990,7 @@
       "negishi": [
         "9.56.1"
       ],
-      "gautschi": [
+      "scholar": [
         "9.56.1"
       ],
       "anvil": [
@@ -1018,15 +1027,15 @@
       "bell": [
         "6.4.0"
       ],
-      "scholar": [
-        "6.5.0"
-      ],
       "gilbreth": [
         "6.4.0"
       ],
       "negishi": [
         "5.4.4",
         "6.2.0"
+      ],
+      "scholar": [
+        "6.5.0"
       ],
       "anvil": [
         "6.1.0"
@@ -1041,14 +1050,14 @@
       "bell": [
         "6.0.0"
       ],
+      "gautschi": [
+        "6.0.0"
+      ],
       "gilbreth": [
         "6.0.0"
       ],
       "negishi": [
         "5.4.2"
-      ],
-      "gautschi": [
-        "6.0.0"
       ],
       "anvil": [
         "5.4.2"
@@ -1090,7 +1099,7 @@
       "bell": [
         "2024.3"
       ],
-      "scholar": [
+      "gautschi": [
         "2024.3"
       ],
       "gilbreth": [
@@ -1100,7 +1109,7 @@
       "negishi": [
         "2022.3"
       ],
-      "gautschi": [
+      "scholar": [
         "2024.3"
       ],
       "anvil": [
@@ -1142,13 +1151,13 @@
       "bell": [
         "11.0.3"
       ],
-      "scholar": [
+      "gautschi": [
         "11.0.3"
       ],
       "negishi": [
         "10.0.1"
       ],
-      "gautschi": [
+      "scholar": [
         "11.0.3"
       ],
       "anvil": [
@@ -1188,7 +1197,7 @@
         "1.14.3",
         "1.14.5"
       ],
-      "scholar": [
+      "gautschi": [
         "1.14.3"
       ],
       "gilbreth": [
@@ -1197,7 +1206,7 @@
       "negishi": [
         "1.13.2"
       ],
-      "gautschi": [
+      "scholar": [
         "1.14.3"
       ],
       "anvil": [
@@ -1259,7 +1268,9 @@
       "bell": [
         "2.7.0"
       ],
-      "scholar": [
+      "gautschi": [
+        "2.5.2",
+        "2.6.5",
         "2.7.0"
       ],
       "gilbreth": [
@@ -1276,9 +1287,7 @@
         "2.6.5",
         "2.7.0"
       ],
-      "gautschi": [
-        "2.5.2",
-        "2.6.5",
+      "scholar": [
         "2.7.0"
       ],
       "anvil": [
@@ -1294,10 +1303,10 @@
     },
     "default": {
       "bell": "2.7.0",
-      "scholar": "2.7.0",
+      "gautschi": "2.5.2",
       "gilbreth": "2.5.2",
       "negishi": "2.7.0",
-      "gautschi": "2.5.2",
+      "scholar": "2.7.0",
       "anvil": "2.7.0"
     }
   },
@@ -1306,11 +1315,11 @@
       "bell": [
         "7.1.1-39"
       ],
-      "negishi": [
-        "7.0.8-7"
-      ],
       "gautschi": [
         "7.1.1-29"
+      ],
+      "negishi": [
+        "7.0.8-7"
       ]
     }
   },
@@ -1319,13 +1328,13 @@
       "bell": [
         "2019.9.304"
       ],
-      "scholar": [
+      "gautschi": [
         "2021.12"
       ],
       "negishi": [
         "2019.9.304"
       ],
-      "gautschi": [
+      "scholar": [
         "2021.12"
       ],
       "anvil": [
@@ -1347,13 +1356,13 @@
       "bell": [
         "19.1.3.304"
       ],
-      "scholar": [
+      "gautschi": [
         "2024.1"
       ],
       "negishi": [
         "19.1.3.304"
       ],
-      "gautschi": [
+      "scholar": [
         "2024.1"
       ],
       "anvil": [
@@ -1446,10 +1455,10 @@
   },
   "intel-rt": {
     "availability": {
-      "scholar": [
+      "gautschi": [
         "2024.1.0"
       ],
-      "gautschi": [
+      "scholar": [
         "2024.1.0"
       ],
       "anvil": [
@@ -1464,7 +1473,8 @@
         "1.11.4",
         "1.11.6"
       ],
-      "scholar": [
+      "gautschi": [
+        "1.11.1",
         "1.11.4",
         "1.11.6"
       ],
@@ -1479,8 +1489,7 @@
         "1.11.4",
         "1.11.6"
       ],
-      "gautschi": [
-        "1.11.1",
+      "scholar": [
         "1.11.4",
         "1.11.6"
       ],
@@ -1494,10 +1503,10 @@
     },
     "default": {
       "bell": "1.11.4",
-      "scholar": "1.11.4",
+      "gautschi": "1.11.1",
       "gilbreth": "1.11.4",
       "negishi": "1.11.4",
-      "gautschi": "1.11.1",
+      "scholar": "1.11.4",
       "anvil": "1.11.4"
     }
   },
@@ -1507,7 +1516,7 @@
         "3.4.4",
         "2025.09"
       ],
-      "scholar": [
+      "gautschi": [
         "1.1.1",
         "2025.09"
       ],
@@ -1519,7 +1528,7 @@
         "3.1.1",
         "2025.09"
       ],
-      "gautschi": [
+      "scholar": [
         "1.1.1",
         "2025.09"
       ],
@@ -1531,10 +1540,10 @@
     },
     "default": {
       "bell": "3.4.4",
-      "scholar": "1.1.1",
+      "gautschi": "1.1.1",
       "gilbreth": "1.1.1",
       "negishi": "3.1.1",
-      "gautschi": "1.1.1",
+      "scholar": "1.1.1",
       "anvil": "2025.07"
     }
   },
@@ -1564,7 +1573,7 @@
       "bell": [
         "20240829.1"
       ],
-      "scholar": [
+      "gautschi": [
         "20240829"
       ],
       "gilbreth": [
@@ -1573,7 +1582,7 @@
       "negishi": [
         "20220623"
       ],
-      "gautschi": [
+      "scholar": [
         "20240829"
       ],
       "anvil": [
@@ -1586,13 +1595,13 @@
   },
   "launcher": {
     "availability": {
+      "gautschi": [
+        "3.9"
+      ],
       "gilbreth": [
         "3.9"
       ],
       "negishi": [
-        "3.9"
-      ],
-      "gautschi": [
         "3.9"
       ],
       "anvil": [
@@ -1600,8 +1609,8 @@
       ]
     },
     "default": {
-      "negishi": "3.9",
       "gautschi": "3.9",
+      "negishi": "3.9",
       "anvil": "3.9"
     }
   },
@@ -1655,7 +1664,7 @@
       "bell": [
         "5.2.0"
       ],
-      "scholar": [
+      "gautschi": [
         "5.2.0"
       ],
       "gilbreth": [
@@ -1664,7 +1673,7 @@
       "negishi": [
         "5.2.0"
       ],
-      "gautschi": [
+      "scholar": [
         "5.2.0"
       ],
       "anvil": [
@@ -1710,7 +1719,7 @@
       "bell": [
         "1.6.37"
       ],
-      "scholar": [
+      "gautschi": [
         "1.6.37"
       ],
       "gilbreth": [
@@ -1720,7 +1729,7 @@
         "1.5.30",
         "1.6.37"
       ],
-      "gautschi": [
+      "scholar": [
         "1.6.37"
       ],
       "anvil": [
@@ -1846,13 +1855,13 @@
       "bell": [
         "1.0.3"
       ],
-      "scholar": [
+      "gautschi": [
         "1.0.3"
       ],
       "negishi": [
         "1.0.3"
       ],
-      "gautschi": [
+      "scholar": [
         "1.0.3"
       ]
     }
@@ -1873,7 +1882,7 @@
         "1.2.2",
         "1.2.4"
       ],
-      "scholar": [
+      "gautschi": [
         "1.2.2"
       ],
       "gilbreth": [
@@ -1882,7 +1891,7 @@
       "negishi": [
         "1.2.2"
       ],
-      "gautschi": [
+      "scholar": [
         "1.2.2"
       ],
       "anvil": [
@@ -1895,7 +1904,7 @@
       "bell": [
         "1.1.42"
       ],
-      "scholar": [
+      "gautschi": [
         "1.1.33"
       ],
       "gilbreth": [
@@ -1904,7 +1913,7 @@
       "negishi": [
         "1.1.33"
       ],
-      "gautschi": [
+      "scholar": [
         "1.1.33"
       ],
       "anvil": [
@@ -1918,8 +1927,9 @@
         "14.1",
         "14.2"
       ],
-      "scholar": [
-        "14.1"
+      "gautschi": [
+        "14.1",
+        "14.2"
       ],
       "gilbreth": [
         "14.1",
@@ -1930,16 +1940,15 @@
         "14.1",
         "14.2"
       ],
-      "gautschi": [
-        "14.1",
-        "14.2"
+      "scholar": [
+        "14.1"
       ]
     },
     "default": {
       "bell": "14.2",
+      "gautschi": "14.2",
       "gilbreth": "14.2",
-      "negishi": "14.2",
-      "gautschi": "14.2"
+      "negishi": "14.2"
     }
   },
   "matlab": {
@@ -1947,7 +1956,7 @@
       "bell": [
         "R2024a"
       ],
-      "scholar": [
+      "gautschi": [
         "R2024a"
       ],
       "gilbreth": [
@@ -1959,7 +1968,7 @@
         "R2023a",
         "R2024b"
       ],
-      "gautschi": [
+      "scholar": [
         "R2024a"
       ],
       "anvil": [
@@ -1971,8 +1980,8 @@
     },
     "default": {
       "bell": "R2024a",
-      "scholar": "R2024a",
       "negishi": "R2022a",
+      "scholar": "R2024a",
       "anvil": "R2020b"
     }
   },
@@ -1998,7 +2007,7 @@
       "bell": [
         "9.0.2"
       ],
-      "scholar": [
+      "gautschi": [
         "9.0.2"
       ],
       "gilbreth": [
@@ -2007,7 +2016,7 @@
       "negishi": [
         "9.0.2"
       ],
-      "gautschi": [
+      "scholar": [
         "9.0.2"
       ],
       "anvil": [
@@ -2020,13 +2029,13 @@
       "bell": [
         "2.3.1"
       ],
+      "gautschi": [
+        "2.3.1"
+      ],
       "gilbreth": [
         "2.3.1"
       ],
       "negishi": [
-        "2.3.1"
-      ],
-      "gautschi": [
         "2.3.1"
       ],
       "anvil": [
@@ -2035,8 +2044,8 @@
     },
     "default": {
       "bell": "2.3.1",
-      "negishi": "2.3.1",
       "gautschi": "2.3.1",
+      "negishi": "2.3.1",
       "anvil": "2.3.1"
     }
   },
@@ -2045,13 +2054,13 @@
       "bell": [
         "2.3.8"
       ],
-      "scholar": [
+      "gautschi": [
         "2.3.8"
       ],
       "negishi": [
         "2.3.8"
       ],
-      "gautschi": [
+      "scholar": [
         "2.3.8"
       ]
     }
@@ -2106,14 +2115,14 @@
       "bell": [
         "2.3.7-1"
       ],
+      "gautschi": [
+        "2.3.7-1"
+      ],
       "gilbreth": [
         "2.3.7-1"
       ],
       "negishi": [
         "2.3.7"
-      ],
-      "gautschi": [
-        "2.3.7-1"
       ],
       "anvil": [
         "2.3.6"
@@ -2125,14 +2134,14 @@
       "bell": [
         "3.0"
       ],
+      "gautschi": [
+        "3.0"
+      ],
       "gilbreth": [
         "3.0"
       ],
       "negishi": [
         "2.14"
-      ],
-      "gautschi": [
-        "3.0"
       ],
       "anvil": [
         "2.14",
@@ -2145,7 +2154,8 @@
       "anvil": [
         "cuda-11.2_2.8.4",
         "cuda-11.0_2.11.4",
-        "cuda-11.4_2.11.4"
+        "cuda-11.4_2.11.4",
+        "cuda-12.8_2.26.2"
       ]
     },
     "default": {
@@ -2157,7 +2167,7 @@
       "bell": [
         "6.6.2"
       ],
-      "scholar": [
+      "gautschi": [
         "6.6.2"
       ],
       "gilbreth": [
@@ -2166,7 +2176,7 @@
       "negishi": [
         "6.6.2"
       ],
-      "gautschi": [
+      "scholar": [
         "6.6.2"
       ],
       "anvil": [
@@ -2179,7 +2189,7 @@
       "bell": [
         "5.2.4"
       ],
-      "scholar": [
+      "gautschi": [
         "5.2.4"
       ],
       "gilbreth": [
@@ -2189,7 +2199,7 @@
         "4.9.3",
         "5.0.1"
       ],
-      "gautschi": [
+      "scholar": [
         "5.2.4"
       ],
       "anvil": [
@@ -2212,7 +2222,7 @@
       "bell": [
         "2.1.9"
       ],
-      "scholar": [
+      "gautschi": [
         "2.1.9"
       ],
       "gilbreth": [
@@ -2221,7 +2231,7 @@
       "negishi": [
         "2.1.9"
       ],
-      "gautschi": [
+      "scholar": [
         "2.1.9"
       ],
       "anvil": [
@@ -2234,7 +2244,7 @@
       "bell": [
         "4.9.2"
       ],
-      "scholar": [
+      "gautschi": [
         "4.9.2"
       ],
       "gilbreth": [
@@ -2243,7 +2253,7 @@
       "negishi": [
         "4.9.0"
       ],
-      "gautschi": [
+      "scholar": [
         "4.9.2"
       ],
       "anvil": [
@@ -2260,7 +2270,7 @@
       "bell": [
         "4.3.1"
       ],
-      "scholar": [
+      "gautschi": [
         "4.3.1"
       ],
       "gilbreth": [
@@ -2269,7 +2279,7 @@
       "negishi": [
         "4.3.1"
       ],
-      "gautschi": [
+      "scholar": [
         "4.3.1"
       ],
       "anvil": [
@@ -2286,7 +2296,7 @@
       "bell": [
         "4.6.1"
       ],
-      "scholar": [
+      "gautschi": [
         "4.6.1"
       ],
       "gilbreth": [
@@ -2295,7 +2305,7 @@
       "negishi": [
         "4.6.0"
       ],
-      "gautschi": [
+      "scholar": [
         "4.6.1"
       ],
       "anvil": [
@@ -2312,7 +2322,7 @@
       "bell": [
         "3.11.0"
       ],
-      "scholar": [
+      "gautschi": [
         "3.11.0"
       ],
       "gilbreth": [
@@ -2321,7 +2331,7 @@
       "negishi": [
         "3.8.0"
       ],
-      "gautschi": [
+      "scholar": [
         "3.11.0"
       ],
       "anvil": [
@@ -2335,12 +2345,12 @@
         "24.10.0",
         "25.04.6"
       ],
+      "gautschi": [
+        "24.04.3"
+      ],
       "negishi": [
         "22.10.1",
         "23.04.1"
-      ],
-      "gautschi": [
-        "24.04.3"
       ],
       "anvil": [
         "22.10.1"
@@ -2389,11 +2399,11 @@
   },
   "nvhpc": {
     "availability": {
-      "gilbreth": [
-        "23.5",
+      "gautschi": [
         "24.7"
       ],
-      "gautschi": [
+      "gilbreth": [
+        "23.5",
         "24.7"
       ],
       "anvil": [
@@ -2414,10 +2424,10 @@
   },
   "oclfpga": {
     "availability": {
-      "scholar": [
+      "gautschi": [
         "2024.1.0"
       ],
-      "gautschi": [
+      "scholar": [
         "2024.1.0"
       ],
       "anvil": [
@@ -2443,7 +2453,7 @@
       "bell": [
         "0.3.27"
       ],
-      "scholar": [
+      "gautschi": [
         "0.3.27"
       ],
       "gilbreth": [
@@ -2453,7 +2463,7 @@
       "negishi": [
         "0.3.21"
       ],
-      "gautschi": [
+      "scholar": [
         "0.3.27"
       ],
       "anvil": [
@@ -2470,14 +2480,14 @@
       "bell": [
         "2312"
       ],
-      "scholar": [
+      "gautschi": [
         "2312"
       ],
       "negishi": [
         "9-20211122",
         "2312"
       ],
-      "gautschi": [
+      "scholar": [
         "2312"
       ],
       "anvil": [
@@ -2496,12 +2506,12 @@
         "17.0.11_9",
         "17.0.8.1_1"
       ],
+      "gautschi": [
+        "17.0.2_8"
+      ],
       "negishi": [
         "1.8.0_265-b01",
         "11.0.17_8"
-      ],
-      "gautschi": [
-        "17.0.2_8"
       ],
       "anvil": [
         "1.8.0_265-b01",
@@ -2515,7 +2525,7 @@
         "4.1.6",
         "5.0.5"
       ],
-      "scholar": [
+      "gautschi": [
         "4.1.6",
         "5.0.5"
       ],
@@ -2527,7 +2537,7 @@
       "negishi": [
         "4.1.4"
       ],
-      "gautschi": [
+      "scholar": [
         "4.1.6",
         "5.0.5"
       ],
@@ -2540,10 +2550,10 @@
       ]
     },
     "default": {
-      "scholar": "5.0.5",
+      "gautschi": "5.0.5",
       "gilbreth": "4.1.6",
       "negishi": "4.1.4",
-      "gautschi": "5.0.5",
+      "scholar": "5.0.5",
       "anvil": "4.0.6"
     }
   },
@@ -2576,13 +2586,13 @@
       "bell": [
         "2.19.2"
       ],
-      "scholar": [
+      "gautschi": [
         "2.19.2"
       ],
       "gilbreth": [
         "2.19.2"
       ],
-      "gautschi": [
+      "scholar": [
         "2.19.2"
       ]
     }
@@ -2606,13 +2616,13 @@
   },
   "parafly": {
     "availability": {
+      "gautschi": [
+        "r2013"
+      ],
       "gilbreth": [
         "r2013"
       ],
       "negishi": [
-        "r2013"
-      ],
-      "gautschi": [
         "r2013"
       ],
       "anvil": [
@@ -2620,9 +2630,9 @@
       ]
     },
     "default": {
+      "gautschi": "r2013",
       "gilbreth": "r2013",
       "negishi": "r2013",
-      "gautschi": "r2013",
       "anvil": "r2013"
     }
   },
@@ -2631,14 +2641,14 @@
       "bell": [
         "20240822"
       ],
+      "gautschi": [
+        "20241022"
+      ],
       "gilbreth": [
         "20241022"
       ],
       "negishi": [
         "20220522"
-      ],
-      "gautschi": [
-        "20241022"
       ],
       "anvil": [
         "20200822"
@@ -2653,7 +2663,7 @@
       "bell": [
         "1.12.3"
       ],
-      "scholar": [
+      "gautschi": [
         "1.12.3"
       ],
       "gilbreth": [
@@ -2662,7 +2672,7 @@
       "negishi": [
         "1.11.2"
       ],
-      "gautschi": [
+      "scholar": [
         "1.12.3"
       ],
       "anvil": [
@@ -2676,7 +2686,7 @@
       "bell": [
         "5.13.2"
       ],
-      "scholar": [
+      "gautschi": [
         "5.13.0"
       ],
       "negishi": [
@@ -2684,7 +2694,7 @@
         "5.12.1-xdmf",
         "5.12.1"
       ],
-      "gautschi": [
+      "scholar": [
         "5.13.0"
       ],
       "anvil": [
@@ -2860,13 +2870,13 @@
       "bell": [
         "9.1.0"
       ],
-      "scholar": [
+      "gautschi": [
         "4.2.1"
       ],
       "negishi": [
         "4.2.1"
       ],
-      "gautschi": [
+      "scholar": [
         "4.2.1"
       ],
       "anvil": [
@@ -2880,7 +2890,7 @@
       "bell": [
         "3.42.0"
       ],
-      "scholar": [
+      "gautschi": [
         "3.40.2"
       ],
       "gilbreth": [
@@ -2890,7 +2900,7 @@
         "3.40.1",
         "3.44.3"
       ],
-      "gautschi": [
+      "scholar": [
         "3.40.2"
       ],
       "anvil": [
@@ -2919,13 +2929,13 @@
       "bell": [
         "7.4"
       ],
-      "scholar": [
+      "gautschi": [
         "7.3.1"
       ],
       "negishi": [
         "7.1"
       ],
-      "gautschi": [
+      "scholar": [
         "7.3.1"
       ],
       "anvil": [
@@ -2951,7 +2961,7 @@
       "bell": [
         "4.4.1"
       ],
-      "scholar": [
+      "gautschi": [
         "4.4.1"
       ],
       "gilbreth": [
@@ -2962,7 +2972,7 @@
         "4.3.1",
         "4.4.1"
       ],
-      "gautschi": [
+      "scholar": [
         "4.4.1"
       ],
       "anvil": [
@@ -2972,10 +2982,10 @@
       ]
     },
     "default": {
-      "scholar": "4.4.1",
+      "gautschi": "4.4.1",
       "gilbreth": "4.4.1",
       "negishi": "4.2.2",
-      "gautschi": "4.4.1",
+      "scholar": "4.4.1",
       "anvil": "4.1.0"
     }
   },
@@ -2984,13 +2994,13 @@
       "bell": [
         "2.4.5"
       ],
-      "scholar": [
+      "gautschi": [
         "2.4.5"
       ],
       "gilbreth": [
         "2.4.5"
       ],
-      "gautschi": [
+      "scholar": [
         "2.4.5"
       ]
     }
@@ -3000,13 +3010,13 @@
       "bell": [
         "1.14"
       ],
-      "scholar": [
+      "gautschi": [
         "1.14"
       ],
       "gilbreth": [
         "1.14"
       ],
-      "gautschi": [
+      "scholar": [
         "1.14"
       ]
     }
@@ -3016,13 +3026,13 @@
       "bell": [
         "1.3.2"
       ],
-      "scholar": [
+      "gautschi": [
         "1.3.2"
       ],
       "gilbreth": [
         "1.3.2"
       ],
-      "gautschi": [
+      "scholar": [
         "1.3.2"
       ]
     }
@@ -3032,20 +3042,20 @@
       "bell": [
         "1.23"
       ],
-      "scholar": [
+      "gilbreth": [
         "1.21"
       ],
-      "gilbreth": [
+      "scholar": [
         "1.21"
       ]
     }
   },
   "r-plyr": {
     "availability": {
-      "scholar": [
+      "gautschi": [
         "1.8.8"
       ],
-      "gautschi": [
+      "scholar": [
         "1.8.8"
       ]
     }
@@ -3055,13 +3065,13 @@
       "bell": [
         "1.4.4"
       ],
-      "scholar": [
+      "gautschi": [
         "1.4.4"
       ],
       "gilbreth": [
         "1.4.4"
       ],
-      "gautschi": [
+      "scholar": [
         "1.4.4"
       ]
     }
@@ -3071,10 +3081,10 @@
       "bell": [
         "1.0-16"
       ],
-      "scholar": [
+      "gilbreth": [
         "1.0-12"
       ],
-      "gilbreth": [
+      "scholar": [
         "1.0-12"
       ]
     }
@@ -3084,13 +3094,13 @@
       "bell": [
         "1.9.1"
       ],
-      "scholar": [
+      "gautschi": [
         "1.8.1.1"
       ],
       "gilbreth": [
         "1.8.1.1"
       ],
-      "gautschi": [
+      "scholar": [
         "1.8.1.1"
       ]
     }
@@ -3132,7 +3142,7 @@
       "bell": [
         "2024.12"
       ],
-      "scholar": [
+      "gautschi": [
         "2024.09"
       ],
       "gilbreth": [
@@ -3142,7 +3152,7 @@
         "2023.06",
         "2024.04.2"
       ],
-      "gautschi": [
+      "scholar": [
         "2024.09"
       ],
       "anvil": [
@@ -3261,8 +3271,7 @@
         "18",
         "19"
       ],
-      "scholar": [
-        "17",
+      "gautschi": [
         "18",
         "19"
       ],
@@ -3270,16 +3279,17 @@
         "18",
         "19"
       ],
-      "gautschi": [
+      "scholar": [
+        "17",
         "18",
         "19"
       ]
     },
     "default": {
       "bell": "19",
-      "scholar": "19",
+      "gautschi": "19",
       "negishi": "19",
-      "gautschi": "19"
+      "scholar": "19"
     }
   },
   "stata-mp": {
@@ -3321,10 +3331,10 @@
   },
   "tbb": {
     "availability": {
-      "scholar": [
+      "gautschi": [
         "2021.12"
       ],
-      "gautschi": [
+      "scholar": [
         "2021.12"
       ],
       "anvil": [
@@ -3351,7 +3361,7 @@
       "bell": [
         "360-2024-R1"
       ],
-      "scholar": [
+      "gautschi": [
         "360-2024-R1"
       ],
       "gilbreth": [
@@ -3362,7 +3372,7 @@
         "360-2022-R2",
         "360-2024-R1"
       ],
-      "gautschi": [
+      "scholar": [
         "360-2024-R1"
       ]
     }
@@ -3379,7 +3389,7 @@
       "bell": [
         "20220321"
       ],
-      "scholar": [
+      "gautschi": [
         "20220321"
       ],
       "gilbreth": [
@@ -3388,7 +3398,7 @@
       "negishi": [
         "20220321"
       ],
-      "gautschi": [
+      "scholar": [
         "20220321"
       ],
       "anvil": [
@@ -3432,7 +3442,7 @@
         "2024.3-x86-64",
         "2025.1.13"
       ],
-      "scholar": [
+      "gautschi": [
         "2025.1.13"
       ],
       "gilbreth": [
@@ -3442,7 +3452,7 @@
         "2021.4.10",
         "2025.1.13"
       ],
-      "gautschi": [
+      "scholar": [
         "2025.1.13"
       ],
       "anvil": [
@@ -3480,7 +3490,7 @@
       "bell": [
         "2.38.1"
       ],
-      "scholar": [
+      "gautschi": [
         "2.38.1"
       ],
       "gilbreth": [
@@ -3489,7 +3499,7 @@
       "negishi": [
         "2.38.1"
       ],
-      "gautschi": [
+      "scholar": [
         "2.38.1"
       ],
       "anvil": [
@@ -3516,6 +3526,11 @@
         "5.4.4.pl2",
         "6.4.1"
       ],
+      "gautschi": [
+        "6.4.3-beef",
+        "6.4.3-vtst",
+        "6.4.3"
+      ],
       "gilbreth": [
         "6.4.1"
       ],
@@ -3523,11 +3538,6 @@
         "5.4.4.pl2",
         "6.4.1_vtst",
         "6.4.1"
-      ],
-      "gautschi": [
-        "6.4.3-beef",
-        "6.4.3-vtst",
-        "6.4.3"
       ],
       "anvil": [
         "5.4.4.pl2",
@@ -3630,10 +3640,10 @@
   },
   "vtune": {
     "availability": {
-      "scholar": [
+      "gautschi": [
         "2024.1"
       ],
-      "gautschi": [
+      "scholar": [
         "2024.1"
       ]
     }
@@ -3657,14 +3667,14 @@
       "bell": [
         "3.0.2"
       ],
+      "gautschi": [
+        "3.1.4"
+      ],
       "gilbreth": [
         "3.1.4"
       ],
       "negishi": [
         "3.0.2"
-      ],
-      "gautschi": [
-        "3.1.4"
       ],
       "anvil": [
         "2.10.45"
@@ -3672,9 +3682,9 @@
     },
     "default": {
       "bell": "3.0.2",
+      "gautschi": "3.1.4",
       "gilbreth": "3.1.4",
-      "negishi": "3.0.2",
-      "gautschi": "3.1.4"
+      "negishi": "3.0.2"
     }
   },
   "xcb-proto": {
@@ -3709,7 +3719,7 @@
       "bell": [
         "0.4.1"
       ],
-      "scholar": [
+      "gautschi": [
         "0.4.1"
       ],
       "gilbreth": [
@@ -3718,7 +3728,7 @@
       "negishi": [
         "0.4.0"
       ],
-      "gautschi": [
+      "scholar": [
         "0.4.1"
       ],
       "anvil": [
@@ -3731,7 +3741,7 @@
       "bell": [
         "0.4.1"
       ],
-      "scholar": [
+      "gautschi": [
         "0.4.1"
       ],
       "gilbreth": [
@@ -3740,7 +3750,7 @@
       "negishi": [
         "0.4.0"
       ],
-      "gautschi": [
+      "scholar": [
         "0.4.1"
       ],
       "anvil": [
@@ -3753,7 +3763,7 @@
       "bell": [
         "0.3.10"
       ],
-      "scholar": [
+      "gautschi": [
         "0.3.10"
       ],
       "gilbreth": [
@@ -3762,7 +3772,7 @@
       "negishi": [
         "0.3.9"
       ],
-      "gautschi": [
+      "scholar": [
         "0.3.10"
       ],
       "anvil": [
@@ -3775,7 +3785,7 @@
       "bell": [
         "0.4.2"
       ],
-      "scholar": [
+      "gautschi": [
         "0.4.2"
       ],
       "gilbreth": [
@@ -3784,7 +3794,7 @@
       "negishi": [
         "0.4.1"
       ],
-      "gautschi": [
+      "scholar": [
         "0.4.2"
       ],
       "anvil": [

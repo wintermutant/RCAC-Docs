@@ -250,9 +250,9 @@
     ]
   },
   "clusterbot": {
-    "description": "TODO: add description",
+    "description": "ClusterBot is a chatbot designed to assist users in managing and interacting with high-performance computing (HPC) clusters. It provides functionalities such as job submission, monitoring, resource management, and troubleshooting through a conversational interface, enhancing user experience and productivity in HPC environments.",
     "homepage": null,
-    "source": "none",
+    "source": "curated",
     "topic": [
       "Miscellaneous"
     ]
@@ -2253,9 +2253,9 @@
     ]
   },
   "ansysedt": {
-    "description": "TODO: add description",
-    "homepage": null,
-    "source": "none",
+    "description": "ANSYS Electronics Desktop (EDT) provides an integrated environment for electromagnetic, signal-integrity, power-integrity, and electronics thermal simulations. It includes tools such as HFSS, Maxwell, Q3D Extractor, SIwave, and Icepak under a unified interface. This suite is commonly used for high-frequency component modeling, PCB/IC package analysis, antenna design, and multiphysics electronics workflows.",
+    "homepage": "https://www.ansys.com/products/electronics/ansys-electronics-desktop",
+    "source": "curated",
     "topic": [
       "Engineering"
     ]
