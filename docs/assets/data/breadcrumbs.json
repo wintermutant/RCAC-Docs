@@ -1,76 +1,76 @@
 {
   "/userguides/anvil/": [
     "Home",
-    "Anvil"
+    "Anvil User Guide"
   ],
   "/userguides/anvil/overview/": [
     "Home",
-    "Anvil",
+    "Anvil User Guide",
     "Overview"
   ],
   "/userguides/anvil/architecture/": [
     "Home",
-    "Anvil",
+    "Anvil User Guide",
     "System Architecture"
   ],
   "/userguides/anvil/technical-specs/": [
     "Home",
-    "Anvil",
+    "Anvil User Guide",
     "Technical Specifications"
   ],
   "/userguides/anvil/access/": [
     "Home",
-    "Anvil",
+    "Anvil User Guide",
     "Access to Anvil"
   ],
   "/userguides/anvil/getting-started/": [
     "Home",
-    "Anvil",
+    "Anvil User Guide",
     "Getting Started"
   ],
   "/userguides/anvil/jobs/": [
     "Home",
-    "Anvil",
+    "Anvil User Guide",
     "Job Submission"
   ],
   "/userguides/anvil/file_management/": [
     "Home",
-    "Anvil",
+    "Anvil User Guide",
     "File Management"
   ],
   "/userguides/anvil/anvil-software/": [
     "Home",
-    "Anvil",
+    "Anvil User Guide",
     "Anvil Software"
   ],
   "/userguides/anvil/faq/": [
     "Home",
-    "Anvil",
+    "Anvil User Guide",
     "Troubleshooting / FAQs"
   ],
   "/userguides/anvil/help/": [
     "Home",
-    "Anvil",
+    "Anvil User Guide",
     "Help Desk"
   ],
   "/userguides/anvil/composable/": [
     "Home",
-    "Anvil",
+    "Anvil User Guide",
     "Anvil Composable Subsystem"
   ],
   "/userguides/anvil/anvilgpt/": [
     "Home",
-    "Anvil",
+    "Anvil User Guide",
     "AnvilGPT (LLM)"
   ],
   "/userguides/anvil/maintenance/": [
     "Home",
-    "Anvil",
+    "Anvil User Guide",
     "Maintenance Log"
   ],
   "/userguides/anvil/policies/": [
     "Home",
-    "Anvil",
+    "Anvil User Guide",
     "Key Policies"
   ],
   "/userguides/gautschi/": [
