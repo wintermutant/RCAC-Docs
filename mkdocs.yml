@@ -79,7 +79,7 @@ plugins:
 nav:
   - Home: index.md
   - HPC User Guides:
-    - Anvil:
+    - Anvil User Guide:
       - userguides/anvil/index.md
       - About:
         - Overview: userguides/anvil/overview.md
