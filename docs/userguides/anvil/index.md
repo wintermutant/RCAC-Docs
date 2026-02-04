@@ -10,7 +10,7 @@
 
 - [**Access to Anvil**](access.md)
 - [**Getting Started**](getting-started.md)
-- [**Job Submission**](run_jobs/index.md)
+- [**Job Submission**](jobs.md)
 - [**File Management**](file_management.md)
 - [**Anvil Software**](anvil-software.md)
 - [**Troubleshooting and FAQs**](faq.md)
