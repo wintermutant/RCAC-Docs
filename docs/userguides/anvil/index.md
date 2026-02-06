@@ -21,7 +21,7 @@
 
 - [**Anvil Composable Subsystem**](composable/getting-started.md)
 - [**AnvilGPT (LLM)**](anvilgpt.md)
-- [**Anvil Notebook**](anvilgpt.md)
+- [**Anvil Notebook**](notebook.md)
 
 ## <a href="maintenance">Maintenance Log</a>
 
