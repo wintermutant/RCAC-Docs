@@ -53,15 +53,30 @@
     "Anvil User Guide",
     "Help Desk"
   ],
-  "/userguides/anvil/composable/": [
+  "/userguides/anvil/composable/getting-started/": [
     "Home",
     "Anvil User Guide",
-    "Anvil Composable Subsystem"
+    "Getting Started"
+  ],
+  "/userguides/anvil/composable/concepts/": [
+    "Home",
+    "Anvil User Guide",
+    "Concepts"
+  ],
+  "/userguides/anvil/composable/examples/": [
+    "Home",
+    "Anvil User Guide",
+    "Examples"
   ],
   "/userguides/anvil/anvilgpt/": [
     "Home",
     "Anvil User Guide",
     "AnvilGPT (LLM)"
+  ],
+  "/userguides/anvil/notebook/": [
+    "Home",
+    "Anvil User Guide",
+    "Anvil Notebook"
   ],
   "/userguides/anvil/maintenance/": [
     "Home",
