@@ -38,13 +38,16 @@ Anvil is designed to serve the moderate-scale computation and data needs of the 
 | gpu | gpu | – | – | 48 hrs | – | – | 1 |
 | ai | ai | – | – | 48 hrs | – | – | 1 |
 
-For the **gpu** and **ai** queues:
-- Maximum of **12 GPUs in use per user**
-- Maximum of **32 GPUs in use per allocation**
 
-Make sure to specify the desired partition when submitting your jobs (for example, `-p wholenode`). If no partition is specified, the job will be directed into the default partition (`shared`).
+!!! warning "GPU and AI Queues"
+    - Maximum of **12 GPUs in use per user**
+    - Maximum of **32 GPUs in use per allocation**
 
-If the partition is **node-exclusive** (e.g., `wholenode` and `wide`), even if you request only one core, the job will be allocated an entire node. The job will be charged for **128 cores**, and `squeue` will reflect this allocation. See SU accounting for more details.
+!!! note "Default Partition"
+    Make sure to specify the desired partition when submitting your jobs (for example, `-p wholenode`). If no partition is specified, the job will be directed into the default partition (`shared`).
+
+!!! warning "Charges for Whole-Node Partitions"
+    If the partition is **node-exclusive** (e.g., `wholenode` and `wide`), even if you request only one core, the job will be allocated an entire node. The job will be charged for **128 cores**, and `squeue` will reflect this allocation. See SU accounting for more details.
 
 ### Useful Tools
 
@@ -108,8 +111,8 @@ matlab -nodisplay -singleCompThread -r myscript
 
 The standard Slurm environment variables that can be used in the job submission file are listed in the table below:
 
-|     |     |
-| --- | --- |Job Script Environment Variables
+**Job Script Environment Variables**
+
 | Name | Description |
 | --- | --- |
 | SLURM\_SUBMIT\_DIR | Absolute path of the current working directory when you submitted this job |
