@@ -111,8 +111,8 @@ matlab -nodisplay -singleCompThread -r myscript
 
 The standard Slurm environment variables that can be used in the job submission file are listed in the table below:
 
-|     |     |
-| --- | --- |Job Script Environment Variables
+**Job Script Environment Variables**
+
 | Name | Description |
 | --- | --- |
 | SLURM\_SUBMIT\_DIR | Absolute path of the current working directory when you submitted this job |
