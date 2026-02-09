@@ -4,7 +4,6 @@
 
 - [**Overview**](overview.md)
 - [**System Architecture**](architecture.md)
-- [**Technical Specifications**](technical-specs.md)
 
 ## User Guide
 
@@ -13,9 +12,7 @@
 - [**Job Submission**](jobs.md)
 - [**File Management**](file_management.md)
 - [**Anvil Software**](anvil-software.md)
-- [**Troubleshooting and FAQs**](faq.md)
 - [**Help Desk**](help.md)
-<!-- - [**Policies and Support**](policies.md) -->
 
 ## Other Services
 
