@@ -9,7 +9,7 @@ hide:
 # All software and versions on RCAC clusters
 
 ## Overview
-As of **January 28, 2026**, there have been a total of **270** applications with **2471** available versions deployed across **6** RCAC HPC clusters: **ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR**.
+As of **February 10, 2026**, there have been a total of **272** applications with **2474** available versions deployed across **6** RCAC HPC clusters: **ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR**.
 
 ## Applications Catalog
 
@@ -186,7 +186,7 @@ As of **January 28, 2026**, there have been a total of **270** applications with
     <tr>
       <td><a href="../apps_md/cmake"><strong>cmake</strong></a></td>
       <td>Miscellaneous</td>
-      <td>ANVIL, BELL, NEGISHI</td>
+      <td>ANVIL, BELL, GILBRETH, NEGISHI</td>
     </tr>
     <tr>
       <td><a href="../apps_md/comsol"><strong>comsol</strong></a></td>
@@ -439,6 +439,11 @@ As of **January 28, 2026**, there have been a total of **270** applications with
       <td>ANVIL, BELL, NEGISHI</td>
     </tr>
     <tr>
+      <td><a href="../apps_md/hcoll"><strong>hcoll</strong></a></td>
+      <td>Miscellaneous</td>
+      <td>GILBRETH</td>
+    </tr>
+    <tr>
       <td><a href="../apps_md/hdf"><strong>hdf</strong></a></td>
       <td>Geoscience, Library</td>
       <td>ANVIL, BELL, NEGISHI</td>
@@ -452,6 +457,11 @@ As of **January 28, 2026**, there have been a total of **270** applications with
       <td><a href="../apps_md/hpctoolkit"><strong>hpctoolkit</strong></a></td>
       <td>Miscellaneous</td>
       <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/hpcx"><strong>hpcx</strong></a></td>
+      <td>Miscellaneous</td>
+      <td>GILBRETH</td>
     </tr>
     <tr>
       <td><a href="../apps_md/hspice"><strong>hspice</strong></a></td>
