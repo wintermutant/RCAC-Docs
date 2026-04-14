@@ -47,13 +47,68 @@ The three tiers of storage are intended for different use cases and are optimize
 
 Anvil File Systems
 
-|  | HOME | SCRATCH | PROJECT |
-| --- | --- | --- | --- |
-| Filesystem | ZFS | GPFS | GPFS |
-| Capacity | 25 GB | 100 TB | 5 TB |
-| File number limit | none | 1 million | 1 million |
-| Backups | daily snapshots | none | daily snapshots |
-| Hardware | <ul><li>Dell PowerEdge R7515 Server</li><li>12 x 7.1TB NVME SSDs</li></ul> | <ul><li><p><strong>Flash Tier</strong></p><ul><li>11 Dell PowerEdge R7515 Servers</li><li>20 15.3 NVME SSDS</li></ul><p>&nbsp;</p></li><li><p><strong>SAS Tier</strong></p><ul><li>4 Dell PowerEdge R6516 Servers connected by InfiniBand to 2 DDN SFA 18K, each unit contains 5 SS9012 expansion enclosures</li><li>367 18TB NL SAS Drives</li></ul></li></ul> | |
+<table>
+  <tr>
+    <th></th>
+    <th>HOME</th>
+    <th>SCRATCH</th>
+    <th>PROJECT</th>
+  </tr>
+
+  <tr>
+    <td>Filesystem</td>
+    <td>ZFS</td>
+    <td>GPFS</td>
+    <td>GPFS</td>
+  </tr>
+
+  <tr>
+    <td>Capacity</td>
+    <td>25 GB</td>
+    <td>100 TB</td>
+    <td>5 TB</td>
+  </tr>
+
+  <tr>
+    <td>File number limit</td>
+    <td>none</td>
+    <td>1 million</td>
+    <td>1 million</td>
+  </tr>
+
+  <tr>
+    <td>Backups</td>
+    <td>daily snapshots</td>
+    <td>none</td>
+    <td>daily snapshots</td>
+  </tr>
+
+  <tr>
+    <td>Hardware</td>
+    <td>
+      <ul>
+        <li>Dell PowerEdge R7515 Server</li>
+        <li>12 × 7.1 TB NVMe SSDs</li>
+      </ul>
+    </td>
+    <td colspan="2">
+      <ul>
+        <li><strong>Flash Tier</strong>
+          <ul>
+            <li>11 Dell PowerEdge R7515 Servers</li>
+            <li>20 × 15.3 TB NVMe SSDs</li>
+          </ul>
+        </li>
+        <li><strong>SAS Tier</strong>
+          <ul>
+            <li>4 Dell PowerEdge R6516 Servers connected via InfiniBand to 2 DDN SFA 18K (each with 5 SS9012 expansion enclosures)</li>
+            <li>367 × 18 TB NL-SAS drives</li>
+          </ul>
+        </li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ### Home
 
